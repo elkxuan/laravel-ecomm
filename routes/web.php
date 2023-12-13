@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LocalizationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,8 @@ Route::get('/', function () {
 Route::get('/faq', function () {
     return view('/others/faq');
 });
+
+Route::prefix('{locale}')->group(function () {
+    Route::get('/', [LocalizationController::class, 'setLocale'])->name('setLocale');
+});
+

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@600&display=swap');
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+}
+
+body {
+    background-color: #FFFAFA;
+}
+
+#carouselExample .carousel-caption {
+    position: absolute;
+    top: 57%;
+    left: 83%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.order-btn {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FDF7E4;
+    color: brown;
+    border: 3px solid #800000;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: brown; 
+    border: 3px solid #8b4513;
+    color: white;
+}
+
+.add-to-cart-btn {
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+    border: 1px solid #800000;
+    border-radius: 20px;
+    padding: 8px 20px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 95px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: brown; 
+    border: 1px solid #8b4513;
+    color: white;
+}

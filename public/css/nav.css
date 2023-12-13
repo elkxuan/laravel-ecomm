@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@600&display=swap');
+
+.navbar-brand {
+    margin-left: 30px;
+    margin-right: 40px;
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+    color: brown;
+}
+
+.navbar-brand:hover {
+    color: #8b4513;
+}
+
+.navbar-nav .nav-link {
+    color: brown;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-item{
+    margin: 0px 10px;
+}
+
+@media (min-width: 992px) {
+    .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .language-icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+}
+
+.login-btn {
+    background-color: brown;
+    color: #fff;
+    border: 1px solid brown;
+    padding: 6px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #8b4513; 
+    border: 1px solid #8b4513;
+    color: white;
+}
