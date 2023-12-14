@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-between py-2 my-2 mb-0 border-top">
-      <p class="m-0">© 2023 Company. All rights reserved.</p>
+      <p class="m-0">© 2023 Company.</p>
     </div>
   </div>
 </footer>

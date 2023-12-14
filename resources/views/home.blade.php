@@ -7,7 +7,7 @@
             <img src="http://127.0.0.1:8000/assets/images/strawberry-tiramisu.png" class="d-block w-100" alt="Slide 1"
                 style="max-height:600px">
             <div class="carousel-caption">
-                <a class="btn order-btn" href="#" role="button">SHOP NOW</a>
+                <a class="btn order-btn" href="#" role="button">@lang('home.shop_now')</a>
             </div>
         </div>
         <!-- <div class="carousel-item">
@@ -27,7 +27,7 @@
 
 <div class="container mt-4 mb-5">
     <div class="row">
-        <h3>Our Products</h3>
+        <h3>@lang('home.our_products')</h3>
         @for ($i = 1; $i <= 6; $i++)
             <div class="col-md-4 mt-4 mb-4">
                 <div class="card h-100 shadow">
@@ -36,7 +36,7 @@
                         <h5 class="card-title">Hokkaido Chiffon Cupcake</h5>
                         <p class="card-text">Description</p>
                         <p class="card-text">RM 100.00</p>
-                        <a href="#" class="btn add-to-cart-btn" role="button">Add to Cart</a>
+                        <!-- <a href="#" class="btn add-to-cart-btn" role="button">Add to Cart</a> -->
                     </div>
                 </div>
             </div>
@@ -50,7 +50,7 @@
 
 <div class="container mt-4 mb-5">
     <div class="row">
-        <h3>Limited Editions</h3>
+        <h3>@lang('home.limited_editions')</h3>
         @for ($i = 1; $i <= 3; $i++)
             <div class="col-md-4 mt-4 mb-4">
                 <div class="card h-100 shadow">
@@ -59,7 +59,7 @@
                         <h5 class="card-title">X'mas Gift Set</h5>
                         <p class="card-text">Description</p>
                         <p class="card-text">RM 100.00</p>
-                        <a href="#" class="btn add-to-cart-btn" role="button">Add to Cart</a>
+                        <!-- <a href="#" class="btn add-to-cart-btn" role="button">Add to Cart</a> -->
                     </div>
                 </div>
             </div>
