@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Brand</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -8,7 +8,7 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">@lang('nav.best_sellers')</a>
+          <a class="nav-link" href="/collections/best-sellers">@lang('nav.best_sellers')</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{{ route('getCollection', ['category' => 'dessert']) }}">@lang('nav.dessert')</a>
@@ -19,8 +19,8 @@
             @lang('nav.cake')
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">@lang('nav.roll_cake_and_other')</a></li>
-            <li><a class="dropdown-item" href="#">@lang('nav.whole_cake')</a></li>
+            <li><a class="dropdown-item" href="{{ route('getCollection', ['category' => 'roll cake & other']) }}">@lang('nav.roll_cake_and_other')</a></li>
+            <li><a class="dropdown-item" href="{{ route('getCollection', ['category' => 'whole cake']) }}">@lang('nav.whole_cake')</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
@@ -29,7 +29,7 @@
             @lang('nav.limited_editions')
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#">@lang('nav.christmas')</a></li>
+            <li><a class="dropdown-item" href="{{ route('getCollection', ['category' => 'christmas']) }}">@lang('nav.christmas')</a></li>
             <li><a class="dropdown-item" href="#">@lang('nav.cny')</a></li>
             <li><a class="dropdown-item" href="#">@lang('nav.valentine')</a></li>
           </ul>
@@ -40,7 +40,7 @@
     <div class="d-flex">
       <ul class="navbar-nav ms-auto">
         <!-- Localization -->
-        <li class="nav-item dropdown">
+        <!-- <li class="nav-item dropdown">
           <a class="nav-link" href="#" id="navbarDropdownLanguage" role="button" data-bs-toggle="dropdown"
             aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe"
@@ -63,7 +63,7 @@
               </a>
             </li>
           </ul>
-        </li>
+        </li> -->
 
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>

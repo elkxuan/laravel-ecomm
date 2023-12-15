@@ -1,13 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat:wght@700&family=Open+Sans:wght@600&family=Whisper&display=swap');
 
-h1, h3{
+h1, h3, h5{
     font-family: 'Open Sans', sans-serif;
     color: brown;
+}
+
+h6{
+    font-family: 'Allura', cursive;
+    font-size: 46px;
+    color:maroon;
 }
 
 body {
     background-color: #f8f8f8;
 }
+
+footer{
+    background-color: lightgoldenrodyellow;
+}
+
+.fab.fa-instagram {
+    color: brown;
+}
+
+.fab.fa-whatsapp {
+    color: brown;
+}
+
+.nav-item a {
+    color: brown !important; /* Use !important to override existing styles */
+  }
 
 #carouselExample .carousel-caption {
     position: absolute;
@@ -19,17 +41,31 @@ body {
 
 .order-btn {
     font-family: 'Open Sans', sans-serif;
-    background-color: #FDF7E4;
     color: brown;
-    border: 3px solid #800000;
-    border-radius: 20px;
-    padding: 8px 20px;
+    border: 1.5px solid #800000;
+    border-radius: 25px;
+    padding: 15px 35px;
     transition: background-color 0.3s, color 0.3s;
 }
 
 .order-btn:hover {
     background-color: brown; 
-    border: 3px solid #8b4513;
+    border: 1px solid #8b4513;
+    color: white;
+}
+
+.view-btn {
+    font-family: 'Open Sans', sans-serif;
+    color: brown;
+    border: 1px solid #800000;
+    border-radius: 25px;
+    padding: 15px 35px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.view-btn:hover {
+    background-color: brown; 
+    border: 1px solid #8b4513;
     color: white;
 }
 
@@ -47,4 +83,13 @@ body {
     background-color: brown; 
     border: 1px solid #8b4513;
     color: white;
+}
+
+.product-image {
+    width: auto;
+    height: 348px;
+}
+
+.accordion-button {
+    font-weight: bold;
 }

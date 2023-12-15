@@ -22,11 +22,4 @@
         @endforeach
     </div>
 </div>
-
-<style>
-    .accordion-button {
-        font-weight: bold;
-        color: brown;
-    }
-</style>
 @endsection

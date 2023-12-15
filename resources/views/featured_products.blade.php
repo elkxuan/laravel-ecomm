@@ -1,10 +1,11 @@
 @extends('layouts.master')
-@section('title', '{{$category}}')
+@section('title', 'Best Sellers')
 @section('content')
 <div class="container mt-4 mb-5">
     <div class="row">
-        <h3>{{ ucwords($category) }}</h3>
+        <h3>Best Sellers</h3>
         @foreach($products as $product)
+        @if($product->best_seller)
             <div class="col-md-4 mt-4 mb-4">
                 <div class="card h-100 shadow">
                     <img src="{{ $product->image }}" alt="{{ $product->name }}" class="card-img-top product-image">
@@ -16,7 +17,8 @@
                     </div>
                 </div>
             </div>
-            @endforeach
+        @endif
+        @endforeach
     </div>
 </div>
 @endsection

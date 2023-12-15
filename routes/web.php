@@ -15,10 +15,6 @@ use App\Http\Controllers\LocalizationController;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
 Route::get('/login', function () {
     return view('/auth/login');
 });
@@ -26,6 +22,10 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('/auth/register');
 });
+
+Route::get('/', [ProductController::class, 'index']);
+
+Route::get('/collections/best-sellers', [ProductController::class, 'getFeaturedProducts']);
 
 Route::get('/collections/{category}', [ProductController::class, 'getCollection'])->name('getCollection');
 

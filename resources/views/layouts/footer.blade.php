@@ -1,4 +1,4 @@
-<footer class="py-4" style="background-color: #FDF7E4;">
+<footer class="py-4">
   <div class="container">
     <div class="row">
       <div class="col-2 offset-2">
@@ -23,7 +23,7 @@
       </div>
     </div>
     <div class="d-flex justify-content-between py-2 my-2 mb-0 border-top">
-      <p class="m-0">© 2023 Company.</p>
+      <p class="m-0" style="color: brown;">© 2023 Company.</p>
     </div>
   </div>
 </footer>
