@@ -2,7 +2,7 @@
 @section('title', __('faq.faq.title'))
 @section('content')
 <div class="mt-4 mb-5">
-    <h4 class="text-center">@lang('faq.faq.title')</h4>
+    <h3 class="text-center">@lang('faq.faq.title')</h3>
 </div>
 <div class="container mb-5">
     <div class="accordion accordion-flush" id="accordionFlushExample">
