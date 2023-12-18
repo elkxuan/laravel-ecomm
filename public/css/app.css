@@ -28,8 +28,13 @@ footer{
 }
 
 .nav-item a {
-    color: brown !important; /* Use !important to override existing styles */
+    color: brown !important;
   }
+
+.announcement-bar {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
 
 #carouselExample .carousel-caption {
     position: absolute;
@@ -92,4 +97,22 @@ footer{
 
 .accordion-button {
     font-weight: bold;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+    transition: transform 0.3s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1);
+}
+
+.card-title:hover {
+    color: brown; 
 }

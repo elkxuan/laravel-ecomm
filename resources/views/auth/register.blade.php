@@ -4,9 +4,9 @@
 <div class="container h-100">
     <div class="row justify-content-sm-center h-100">
         <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-7 col-sm-9">
-            <div class="card shadow-lg mt-4 mb-4">
+            <div class="auth-card shadow-lg mt-4 mb-4">
                 <div class="card-body p-5">
-                    <h1 class="fs-2 card-title fw-bold mb-4">@lang('register.create_account')</h1>
+                    <h1 class="fs-2 auth-card-title fw-bold mb-4">@lang('register.create_account')</h1>
                     <form method="" class="needs-validation" novalidate="" autocomplete="off">
                         <div class="mb-3">
                             <label class="mb-2 text-muted" for="email">@lang('register.email')</label>

@@ -17,7 +17,7 @@ class ProductController extends Controller
     public function getFeaturedProducts()
     {
         $products = Product::where('best_seller',1)->get();
-        return view('featured_products', ['products'=> $products]);
+        return view('featured-products', ['products'=> $products]);
     }
 
     public function getCollection($category)
