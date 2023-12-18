@@ -24,9 +24,7 @@ Route::get('/register', function () {
 });
 
 Route::get('/', [ProductController::class, 'index']);
-
 Route::get('/collections/best-sellers', [ProductController::class, 'getFeaturedProducts']);
-
 Route::get('/collections/{category}', [ProductController::class, 'getCollection'])->name('getCollection');
 
 Route::get('/faq', function () {

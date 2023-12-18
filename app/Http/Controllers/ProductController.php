@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index() 
+    public function index()
     {
         $products = Product::all();
         $limited_editions = Product::where('limited_edition', 1)->get();
@@ -16,7 +16,7 @@ class ProductController extends Controller
 
     public function getFeaturedProducts()
     {
-        $products = Product::where('best_seller',1)->get();
+        $products = Product::where('best_seller', 1)->get();
         return view('featured-products', ['products'=> $products]);
     }
 
